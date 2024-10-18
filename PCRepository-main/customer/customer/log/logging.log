@@ -1,0 +1,298 @@
+2024-08-28T15:36:09.175+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : Starting CustomerApplication using Java 17.0.11 with PID 17692 (C:\Users\piyus\Desktop\PC-workspace\customer\customer\target\classes started by piyus in C:\Users\piyus\Desktop\PC-workspace\customer\customer)
+2024-08-28T15:36:09.184+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T15:36:09.245+05:30  INFO 17692 --- [customer] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T15:36:09.245+05:30  INFO 17692 --- [customer] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T15:36:10.389+05:30  INFO 17692 --- [customer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T15:36:10.557+05:30  INFO 17692 --- [customer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 2 JPA repository interfaces.
+2024-08-28T15:36:10.930+05:30  INFO 17692 --- [customer] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85fe0c37-d23e-3ce8-aa32-0c53ed0969f9
+2024-08-28T15:36:11.160+05:30  WARN 17692 --- [customer] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-28T15:36:11.164+05:30  WARN 17692 --- [customer] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-28T15:36:12.108+05:30  INFO 17692 --- [customer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9093 (http)
+2024-08-28T15:36:12.136+05:30  INFO 17692 --- [customer] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T15:36:12.137+05:30  INFO 17692 --- [customer] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-28T15:36:12.252+05:30  INFO 17692 --- [customer] [restartedMain] o.a.c.c.C.[.[localhost].[/client1]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T15:36:12.253+05:30  INFO 17692 --- [customer] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3007 ms
+2024-08-28T15:36:12.605+05:30  INFO 17692 --- [customer] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T15:36:12.709+05:30  INFO 17692 --- [customer] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-28T15:36:12.752+05:30  INFO 17692 --- [customer] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-28T15:36:13.119+05:30  INFO 17692 --- [customer] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T15:36:13.153+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-28T15:36:13.356+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@767a5889
+2024-08-28T15:36:13.359+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-28T15:36:13.442+05:30  WARN 17692 --- [customer] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-28T15:36:15.044+05:30  INFO 17692 --- [customer] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28T15:36:15.233+05:30  INFO 17692 --- [customer] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T15:36:16.217+05:30  WARN 17692 --- [customer] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T15:36:17.188+05:30  WARN 17692 --- [customer] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-28T15:36:17.549+05:30  INFO 17692 --- [customer] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-28T15:36:17.618+05:30  WARN 17692 --- [customer] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-28T15:36:17.669+05:30  INFO 17692 --- [customer] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-28T15:36:17.726+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-28T15:36:17.735+05:30  INFO 17692 --- [customer] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T15:36:17.756+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-28T15:36:17.757+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-28T15:36:17.757+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-28T15:36:17.757+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-28T15:36:17.757+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-28T15:36:17.757+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-28T15:36:17.757+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-28T15:36:18.912+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-28T15:36:18.913+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-28T15:36:18.916+05:30  INFO 17692 --- [customer] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-28T15:36:18.918+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724839578917 with initial instances count: 0
+2024-08-28T15:36:18.923+05:30  INFO 17692 --- [customer] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER with eureka with status UP
+2024-08-28T15:36:18.923+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724839578923, current=UP, previous=STARTING]
+2024-08-28T15:36:18.925+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093: registering service...
+2024-08-28T15:36:18.946+05:30  INFO 17692 --- [customer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9093 (http) with context path '/client1'
+2024-08-28T15:36:18.948+05:30  INFO 17692 --- [customer] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9093
+2024-08-28T15:36:19.035+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : Started CustomerApplication in 10.415 seconds (process running for 14.5)
+2024-08-28T15:36:19.067+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093 - registration status: 204
+2024-08-28T15:36:48.929+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-28T15:36:48.929+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-28T15:36:48.929+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-28T15:36:48.929+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-28T15:36:48.929+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-28T15:36:48.929+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-08-28T15:36:48.929+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-28T15:36:48.954+05:30  INFO 17692 --- [customer] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-28T15:39:46.357+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] o.a.c.c.C.[.[localhost].[/client1]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28T15:39:46.357+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-28T15:39:46.399+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 40 ms
+2024-08-28T15:39:47.687+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 518 ms
+2024-08-28T15:40:58.129+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.customer.beans.ApiResponse> com.customer.controller.CustomerController.addCustomer(com.customer.entity.Customer): [Field error in object 'customer' on field 'phoneNo': rejected value [11818198]; codes [Pattern.customer.phoneNo,Pattern.phoneNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customer.phoneNo,phoneNo]; arguments []; default message [phoneNo],[Ljakarta.validation.constraints.Pattern$Flag;@1f01627c,^\d{10}$]; default message [Phone number should be 10 digits]] ]
+2024-08-28T15:41:09.747+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.customer.beans.ApiResponse> com.customer.controller.CustomerController.addCustomer(com.customer.entity.Customer): [Field error in object 'customer' on field 'phoneNo': rejected value [118181980]; codes [Pattern.customer.phoneNo,Pattern.phoneNo,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customer.phoneNo,phoneNo]; arguments []; default message [phoneNo],[Ljakarta.validation.constraints.Pattern$Flag;@1f01627c,^\d{10}$]; default message [Phone number should be 10 digits]] ]
+2024-08-28T15:41:16.439+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:41:16.439+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] c.c.controller.CustomerController        : addCustomer() called from customer controller
+2024-08-28T15:41:16.439+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:41:16.439+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] com.customer.service.CustomerService     : addCustomer() called from service layer
+2024-08-28T15:41:16.439+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] com.customer.service.CustomerService     : addCustomer() ended from service layer
+2024-08-28T15:41:16.439+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:41:16.776+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] c.c.controller.CustomerController        : customer=Customer(customerId=2, name=Shan, email=shan12@gmail.com, password=shan12, phoneNo=1181819800, address=SHT Tngl)
+2024-08-28T15:41:16.776+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] c.c.controller.CustomerController        : addCustomer() ended from customer controller
+2024-08-28T15:41:16.776+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-2] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:41:17.769+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T15:41:35.522+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:41:35.522+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] c.c.controller.CustomerController        : getCustomerByID() called from customer controller
+2024-08-28T15:41:35.522+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:41:35.523+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:41:35.624+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:41:35.626+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:41:35.626+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:41:35.626+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] c.c.controller.CustomerController        : customer=Customer(customerId=2, name=Shan, email=shan12@gmail.com, password=shan12, phoneNo=1181819800, address=SHT Tngl)
+2024-08-28T15:41:35.626+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] c.c.controller.CustomerController        : getCustomerByID() ended from customer controller
+2024-08-28T15:41:35.626+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-7] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:45:35.914+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:45:35.916+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T15:45:35.919+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:45:35.924+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T15:45:35.924+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:45:35.924+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:45:35.927+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:45:35.927+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:45:35.927+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:45:36.054+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "No static resource product/removefromstock/4/10."]
+2024-08-28T15:46:17.773+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T15:47:19.185+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:47:19.185+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T15:47:19.190+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:47:19.190+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T15:47:19.190+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:47:19.190+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:47:19.195+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:47:19.195+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:47:19.195+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:47:19.233+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "No static resource product/removefromstock/3/10."]
+2024-08-28T15:48:20.140+05:30  INFO 17692 --- [customer] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-08-28T15:48:20.153+05:30  INFO 17692 --- [customer] [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER with eureka with status DOWN
+2024-08-28T15:48:20.153+05:30  INFO 17692 --- [customer] [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724840300153, current=DOWN, previous=UP]
+2024-08-28T15:48:20.154+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093: registering service...
+2024-08-28T15:48:20.173+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093 - registration status: 204
+2024-08-28T15:48:20.484+05:30  INFO 17692 --- [customer] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T15:48:20.513+05:30  INFO 17692 --- [customer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-28T15:48:20.551+05:30  INFO 17692 --- [customer] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-28T15:48:20.553+05:30  INFO 17692 --- [customer] [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-28T15:48:23.556+05:30  INFO 17692 --- [customer] [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-28T15:48:23.593+05:30  INFO 17692 --- [customer] [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093 - deregister  status: 200
+2024-08-28T15:48:23.595+05:30  INFO 17692 --- [customer] [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-28T15:48:24.050+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : Starting CustomerApplication using Java 17.0.11 with PID 17692 (C:\Users\piyus\Desktop\PC-workspace\customer\customer\target\classes started by piyus in C:\Users\piyus\Desktop\PC-workspace\customer\customer)
+2024-08-28T15:48:24.050+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T15:48:24.327+05:30  INFO 17692 --- [customer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T15:48:24.341+05:30  INFO 17692 --- [customer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-08-28T15:48:24.440+05:30  INFO 17692 --- [customer] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85fe0c37-d23e-3ce8-aa32-0c53ed0969f9
+2024-08-28T15:48:24.466+05:30  WARN 17692 --- [customer] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-28T15:48:24.469+05:30  WARN 17692 --- [customer] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-28T15:48:24.525+05:30  INFO 17692 --- [customer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9093 (http)
+2024-08-28T15:48:24.525+05:30  INFO 17692 --- [customer] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T15:48:24.525+05:30  INFO 17692 --- [customer] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-28T15:48:24.559+05:30  INFO 17692 --- [customer] [restartedMain] o.a.c.c.C.[.[localhost].[/client1]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T15:48:24.559+05:30  INFO 17692 --- [customer] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 505 ms
+2024-08-28T15:48:24.611+05:30  INFO 17692 --- [customer] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T15:48:24.615+05:30  INFO 17692 --- [customer] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-28T15:48:24.630+05:30  INFO 17692 --- [customer] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T15:48:24.631+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-28T15:48:24.643+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5934ba55
+2024-08-28T15:48:24.644+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-28T15:48:24.647+05:30  WARN 17692 --- [customer] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-28T15:48:24.728+05:30  INFO 17692 --- [customer] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28T15:48:24.788+05:30  INFO 17692 --- [customer] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T15:48:24.891+05:30  WARN 17692 --- [customer] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T15:48:25.025+05:30  WARN 17692 --- [customer] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-28T15:48:25.200+05:30  INFO 17692 --- [customer] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-28T15:48:25.222+05:30  WARN 17692 --- [customer] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-28T15:48:25.235+05:30  INFO 17692 --- [customer] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-28T15:48:25.243+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-28T15:48:25.244+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-28T15:48:25.282+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-28T15:48:25.282+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-28T15:48:25.282+05:30  INFO 17692 --- [customer] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-28T15:48:25.282+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724840305282 with initial instances count: 3
+2024-08-28T15:48:25.285+05:30  INFO 17692 --- [customer] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER with eureka with status UP
+2024-08-28T15:48:25.285+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724840305285, current=UP, previous=STARTING]
+2024-08-28T15:48:25.285+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093: registering service...
+2024-08-28T15:48:25.289+05:30  INFO 17692 --- [customer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9093 (http) with context path '/client1'
+2024-08-28T15:48:25.290+05:30  INFO 17692 --- [customer] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9093
+2024-08-28T15:48:25.300+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093 - registration status: 204
+2024-08-28T15:48:25.371+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : Started CustomerApplication in 1.467 seconds (process running for 740.837)
+2024-08-28T15:48:25.375+05:30  INFO 17692 --- [customer] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T15:49:18.645+05:30  INFO 17692 --- [customer] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T15:49:18.647+05:30  INFO 17692 --- [customer] [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CUSTOMER with eureka with status DOWN
+2024-08-28T15:49:18.647+05:30  INFO 17692 --- [customer] [Thread-7] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724840358647, current=DOWN, previous=UP]
+2024-08-28T15:49:18.648+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093: registering service...
+2024-08-28T15:49:18.665+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093 - registration status: 204
+2024-08-28T15:49:18.925+05:30  INFO 17692 --- [customer] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T15:49:18.927+05:30  INFO 17692 --- [customer] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-28T15:49:18.932+05:30  INFO 17692 --- [customer] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-28T15:49:18.933+05:30  INFO 17692 --- [customer] [Thread-7] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-08-28T15:49:21.947+05:30  INFO 17692 --- [customer] [Thread-7] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-08-28T15:49:21.969+05:30  INFO 17692 --- [customer] [Thread-7] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093 - deregister  status: 200
+2024-08-28T15:49:21.969+05:30  INFO 17692 --- [customer] [Thread-7] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-08-28T15:49:22.239+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : Starting CustomerApplication using Java 17.0.11 with PID 17692 (C:\Users\piyus\Desktop\PC-workspace\customer\customer\target\classes started by piyus in C:\Users\piyus\Desktop\PC-workspace\customer\customer)
+2024-08-28T15:49:22.239+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T15:49:22.438+05:30  INFO 17692 --- [customer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T15:49:22.449+05:30  INFO 17692 --- [customer] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2024-08-28T15:49:22.513+05:30  INFO 17692 --- [customer] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=85fe0c37-d23e-3ce8-aa32-0c53ed0969f9
+2024-08-28T15:49:22.532+05:30  WARN 17692 --- [customer] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-28T15:49:22.532+05:30  WARN 17692 --- [customer] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-08-28T15:49:22.572+05:30  INFO 17692 --- [customer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9093 (http)
+2024-08-28T15:49:22.572+05:30  INFO 17692 --- [customer] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T15:49:22.573+05:30  INFO 17692 --- [customer] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-28T15:49:22.600+05:30  INFO 17692 --- [customer] [restartedMain] o.a.c.c.C.[.[localhost].[/client1]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T15:49:22.600+05:30  INFO 17692 --- [customer] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 359 ms
+2024-08-28T15:49:22.641+05:30  INFO 17692 --- [customer] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T15:49:22.644+05:30  INFO 17692 --- [customer] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-28T15:49:22.650+05:30  INFO 17692 --- [customer] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T15:49:22.652+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-08-28T15:49:22.661+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51c128a7
+2024-08-28T15:49:22.662+05:30  INFO 17692 --- [customer] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-08-28T15:49:22.663+05:30  WARN 17692 --- [customer] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-28T15:49:22.716+05:30  INFO 17692 --- [customer] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28T15:49:22.745+05:30  INFO 17692 --- [customer] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T15:49:22.822+05:30  WARN 17692 --- [customer] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T15:49:22.917+05:30  WARN 17692 --- [customer] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-08-28T15:49:23.083+05:30  INFO 17692 --- [customer] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-08-28T15:49:23.094+05:30  WARN 17692 --- [customer] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-08-28T15:49:23.108+05:30  INFO 17692 --- [customer] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-08-28T15:49:23.111+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-08-28T15:49:23.111+05:30  INFO 17692 --- [customer] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T15:49:23.112+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-08-28T15:49:23.112+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-08-28T15:49:23.112+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-08-28T15:49:23.112+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-08-28T15:49:23.112+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-08-28T15:49:23.112+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-08-28T15:49:23.112+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-08-28T15:49:23.148+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-08-28T15:49:23.148+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-08-28T15:49:23.149+05:30  INFO 17692 --- [customer] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-08-28T15:49:23.149+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1724840363149 with initial instances count: 3
+2024-08-28T15:49:23.150+05:30  INFO 17692 --- [customer] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER with eureka with status UP
+2024-08-28T15:49:23.151+05:30  INFO 17692 --- [customer] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1724840363151, current=UP, previous=STARTING]
+2024-08-28T15:49:23.151+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093: registering service...
+2024-08-28T15:49:23.156+05:30  INFO 17692 --- [customer] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9093 (http) with context path '/client1'
+2024-08-28T15:49:23.159+05:30  INFO 17692 --- [customer] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9093
+2024-08-28T15:49:23.169+05:30  INFO 17692 --- [customer] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER/LAPTOP-9I24D6K4:customer:9093 - registration status: 204
+2024-08-28T15:49:23.239+05:30  INFO 17692 --- [customer] [restartedMain] com.customer.CustomerApplication         : Started CustomerApplication in 1.164 seconds (process running for 798.705)
+2024-08-28T15:49:23.241+05:30  INFO 17692 --- [customer] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T15:49:32.430+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] o.a.c.c.C.[.[localhost].[/client1]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28T15:49:32.430+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-28T15:49:32.432+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-08-28T15:49:32.450+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:49:32.450+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T15:49:32.452+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:49:32.452+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T15:49:32.452+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:49:32.452+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:49:32.459+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:49:32.460+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:49:32.460+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-3] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:49:32.496+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "No static resource product/removefromstock/3/10."]
+2024-08-28T15:49:37.463+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 323 ms
+2024-08-28T15:49:54.801+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:49:54.801+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T15:49:54.801+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:49:54.801+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T15:49:54.801+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:49:54.801+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:49:54.804+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:49:54.807+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:49:54.807+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:49:54.856+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "No static resource product/removefromstock/4/10."]
+2024-08-28T15:53:45.896+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:53:45.905+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T15:53:45.913+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:53:45.913+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T15:53:45.915+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:53:45.915+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:53:45.924+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:53:45.924+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:53:45.924+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-9] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:53:46.016+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "No static resource product/removefromstock/4/10."]
+2024-08-28T15:54:23.128+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T15:59:10.244+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:59:10.245+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T15:59:10.267+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:59:10.267+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T15:59:10.267+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:59:10.267+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:59:10.276+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:59:10.276+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:59:10.276+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-4] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:59:10.332+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "No static resource product/removefromstock/4/10."]
+2024-08-28T15:59:23.141+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T15:59:24.513+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:59:24.515+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T15:59:24.520+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] c.c.controller.CustomerController        : ======================================
+2024-08-28T15:59:24.520+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T15:59:24.521+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:59:24.523+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T15:59:24.535+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:59:24.536+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T15:59:24.536+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-1] com.customer.service.CustomerService     : ======================================
+2024-08-28T15:59:24.561+05:30  WARN 17692 --- [customer] [http-nio-9093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500 : "No static resource product/removefromstock/4/1."]
+2024-08-28T16:04:23.148+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T16:08:40.374+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T16:08:40.375+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() called from purchase controller
+2024-08-28T16:08:40.376+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T16:08:40.379+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() called from service layer
+2024-08-28T16:08:40.379+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T16:08:40.379+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : getCustomerById() called from service layer
+2024-08-28T16:08:40.387+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T16:08:40.388+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : getCustomerById() ended from service layer
+2024-08-28T16:08:40.389+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] com.customer.service.CustomerService     : ======================================
+2024-08-28T16:08:40.468+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T16:08:40.468+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() ended from service layer
+2024-08-28T16:08:40.545+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : purchase=Purchase(purchaseId=4, customer=Customer(customerId=2, name=Shan, email=shan12@gmail.com, password=shan12, phoneNo=1181819800, address=SHT Tngl), productId=4, productName=Kurkure, purchaseDate=2024-08-28T16:08:40.465436900, status=Completed, quantity=1, totalValue=10)
+2024-08-28T16:08:40.567+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : makePurchase() ended from purchase controller
+2024-08-28T16:08:40.567+05:30  INFO 17692 --- [customer] [http-nio-9093-exec-8] c.c.controller.CustomerController        : ======================================
+2024-08-28T16:09:23.156+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T16:14:23.171+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T16:19:23.201+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T16:24:23.204+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-08-28T16:29:23.214+05:30  INFO 17692 --- [customer] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
